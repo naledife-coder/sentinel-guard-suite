@@ -1,0 +1,12 @@
+# Normalize line endings
+# Exclude build artifacts
+*.astro linguist-detectable
+public/* linguist-vendored
+*.json linguist-detectable=false 
+src/*.astro linguist-detectable
+*.jpg binary
+Cargo.lock linguist-generated
+package-lock.json linguist-generated
+
+*.woff2 binary
+public/index.html linguist-vendored
